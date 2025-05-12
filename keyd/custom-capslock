@@ -1,0 +1,25 @@
+[main]
+# capslock will behave as normal in all instances except when used in conjunction
+# with the keys defined in the custom-capslock layer
+capslock = overload(custom-capslock, capslock)
+
+[custom-capslock]
+# Shortcuts for navigating virtual desktops
+# Row 1, Col 1-4
+u = C-f1
+i = C-f2
+o = C-f3
+p = C-f4
+
+# Row 2, Col 1-4
+j = C-f5
+k = C-f6
+l = C-f7
+; = C-f8
+
+# Row 3, Col 1-4
+m = C-f9
+, = C-f10
+. = C-f11
+/ = C-f12
+
