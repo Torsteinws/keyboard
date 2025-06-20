@@ -1,0 +1,81 @@
+[main]
+# f = lettermod(vim-keys, f, 150, 200)
+
+# Hold f and d/s/a to turn on vim keys
+#  - s --> shift
+#  - a --> control
+f+d = layer(vim-keys)
+f+s = layer(control-vim-keys)
+f+a = layer(shift-vim-keys)
+
+# Home row mods for the right hand
+#  - j --> Trigger home row layer
+#  - k --> alt
+#  - l --> control
+#  - ø --> shift
+j+k = layer(right-alt-mod)
+j+l = layer(right-ctrl-mod)
+j+; = layer(right-shift-mod)  # ';' is equivalent to ø
+
+k+l = layer(right-alt-ctrl-mod) 
+k+; = layer(right-alt-shift-mod)
+
+l+; = layer(right-shift-ctrl-mod)
+
+[vim-keys]
+h = left
+j = down
+k = up
+l = right
+u = home
+o = end 
+m = pagedown
+, = pageup
+
+a = layer(shift)
+s = layer(control)
+
+[shift-vim-keys:S]
+h = S-left
+j = S-down
+k = S-up
+l = S-right
+u = S-home
+o = S-end 
+m = S-pagedown
+, = S-pageup
+
+s = layer(control)
+
+[control-vim-keys:C]
+h = C-left
+j = C-down
+k = C-up
+l = C-right
+u = C-home
+o = C-end 
+m = C-pagedown
+, = C-pageup
+
+a = layer(shift)
+
+[right-alt-mod:A]
+l = layer(control)
+; = layer(shift)
+
+[right-ctrl-mod:C]
+k = layer(alt)
+; = layer(shift)
+
+[right-shift-mod:S]
+k = layer(alt)
+l = layer(control)
+
+[right-alt-ctrl-mod:A-C]
+; = layer(shift)
+
+[right-alt-shift-mod:A-S]
+l = layer(control)
+
+[right-shift-ctrl-mod:S-C]
+k = layer(alt)
