@@ -1,6 +1,4 @@
 [main]
-# f = lettermod(vim-keys, f, 150, 200)
-
 # Hold f and d/s/a to turn on vim keys
 #  - s --> shift
 #  - a --> control
@@ -27,7 +25,9 @@ h = left
 j = down
 k = up
 l = right
+y = delete
 u = home
+i = insert
 o = end 
 m = pagedown
 , = pageup
@@ -40,7 +40,9 @@ h = S-left
 j = S-down
 k = S-up
 l = S-right
+y = S-delete
 u = S-home
+i = S-insert
 o = S-end 
 m = S-pagedown
 , = S-pageup
@@ -52,7 +54,9 @@ h = C-left
 j = C-down
 k = C-up
 l = C-right
+y = C-delete
 u = C-home
+i = C-insert
 o = C-end 
 m = C-pagedown
 , = C-pageup
