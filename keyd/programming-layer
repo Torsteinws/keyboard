@@ -1,0 +1,16 @@
+[main]
+leftshift+rightshift = toggle(programming)
+
+[programming]
+# Map ø to {
+; = G-7
+
+# Map æ to }
+' = G-0
+
+[programming+shift]
+# Map Ø to [
+; = G-8	
+
+# Map Æ to ]
+' = G-9
