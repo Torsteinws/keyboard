@@ -3,6 +3,9 @@
 # with the keys defined in the custom-capslock layer
 capslock = overload(custom-capslock, capslock)
 
+[shift]
+capslock = esc
+
 [custom-capslock]
 # Shortcuts for navigating virtual desktops
 # Row 1, Col 1-4
