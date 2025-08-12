@@ -6,7 +6,7 @@
 
 ## Base-layer
 ```
-1   2   3   4   5   6   7   8   9   0   ?   \       # Reference
+1   2   3   4   5   6   7   8   9   0   ?   \       # Column reference
 
 
 -   -   -   -   -   -   -   -   -   -   -   -       # Original
@@ -18,8 +18,8 @@
 ```
 
 ### Notes
-- First row is a location reference
-- ¨_ means ¨ + compose character
+- First row is a reference to make the columns easier to read.
+- `-` means that the key is unchanged.
 - Permanently removed: ¨
 
 
@@ -80,28 +80,24 @@ esc -   -   -   -   -   -   -   -   -   -   -   -
 
 ## d+f layer
 ```
-1       2       3       4       5       6       7       8       9       0       \          # Reference
+1       2       3       4       5       6       7       8       9       0       ?       # Reference
 
--       -       -       -       -       -       -       -       -       -       -
+-       -       -       -       -       -       -       -       -       -       -       # Layer
 -       -       -       -       -       del     home    insert  end     -       -
 shift   ctrl    -       -       -       left    down    up      right   -       -
 -       -       -       -       -       -       PgDn    PgUp    -       -       -
 ```
 
 ### Notes
-- Stack ctrl layer
-    - s+d+f
-    - s+f
-- Stack shift layer
-    - a+d+f
-    - a+f
-- ctrl and shift layer can stack on top of each other
+ - The Layer is triggered by taping `d` and `f` at the same time and then holding the keys.
+ - The layer can also be triggered if `a` and/or `s` is pressed together with `f`. The `d` can be omitted in this case.
 
 ## capslock layer
 ```
-6       7       8       9       0       `_          # Reference
+6       7       8       9       0       ?           # Reference
 
--       -       -       -       -       -
+
+-       -       -       -       -       -           # Layer
 -       C-f1    C-f2    C-f3    C-f4    -
 -       C-f5    C-f6    C-f7    C-f8    -
 -       C-f9    C-f10   C-f11   C-f12   -
@@ -139,11 +135,11 @@ Need to find an easier way to use:
     - [x] Page Down key
     - [x] Arrow keys
     - [x] esc key
-- [] Media keys
-    - [] play/pause key 
-    - [] stop key
-    - [] previous key
-    - [] next keyl
+- [ ] Media keys
+    - [ ] play/pause key 
+    - [ ] stop key
+    - [ ] previous key
+    - [ ] next keyl
 
 ## Additional requirements
 - [x] ctrl+alt should map to AltGr for certain keys
@@ -151,15 +147,15 @@ Need to find an easier way to use:
 
 ## Unicode characters
 It would be nice to have easy access to:
-- [] em-dash (—), en-dash (–)
-- [] Trademark symbol (™)
+- [ ] em-dash (—), en-dash (–)
+- [ ] Trademark symbol (™)
 
 # To be considered
 - Create a numpad layer on the home row?
 - Writing Norwegian in vim might be annoying as that would probably require frequent switching between programming mode and Norwegian mode. Consider solving this problem.
 
 # TODO
-- Create a kde widget that displays if the keyboard is in 
+- Create a kde widget that displays if the keyboard is in programming mode or not.
 
 <style>
     /* Ensure no automatic line breaks in the code chunks */
