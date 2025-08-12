@@ -1,0 +1,11 @@
+[main]
+# Remap: ¨ -> ~
+] = G-]
+
+[shift]
+# Ensure: ^ -> ^
+] = S-]
+
+# Remap: ¤ -> $
+4 = G-4 
+
