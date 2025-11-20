@@ -1,0 +1,16 @@
+[main]
+r+e = layer(upper-home-row)
+
+[upper-home-row]
+# Map: j, k --> {, }
+j = G-7
+k = G-0
+
+# Map: u, i --> [, ]
+u = G-8
+i = G-9
+
+# Map: m, , --> (, )
+m = S-8
+, = S-9
+
