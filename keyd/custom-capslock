@@ -1,10 +1,17 @@
 [main]
 # capslock will behave as normal in all instances except when used in conjunction
 # with the keys defined in the custom-capslock layer
-capslock = overload(custom-capslock, capslock)
+capslock = overload(custom-capslock, esc)
+rightshift = layer(rightshift)
 
-[shift]
-capslock = esc
+[rightshift:S]
+capslock = capslock
+
+# This is a hack!
+#   The bingins in `key-remap` breaks when this layer is tied to the rightshift key.
+#   Duplicating the bindings here solves the problem... Watch out for bugs!
+] = S-]
+4 = G-4
 
 [custom-capslock]
 # Shortcuts for navigating virtual desktops
@@ -26,3 +33,6 @@ m = C-f9
 . = C-f11
 / = C-f12
 
+# This is required to avoid conflict with the programming layer
+[custom-capslock+programming+shift]
+; = S-C-A-M-;

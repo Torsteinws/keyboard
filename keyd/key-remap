@@ -1,11 +1,13 @@
 [main]
+
 # Remap: ¨ -> ~
 ] = G-]
 
+# NB: Due to a hacky custom capslock, these bindings are also defined in custom-capslock.
+#   Watch out for bugs
 [shift]
 # Ensure: ^ -> ^
 ] = S-]
 
 # Remap: ¤ -> $
 4 = G-4 
-
