@@ -5,12 +5,12 @@ leftshift+rightshift = toggle(programming)
 # Map ø to {
 ; = G-7
 
-# Map æ to }
-' = G-0
+# Map æ to [
+' = G-8
 
 [programming+shift]
-# Map Ø to [
-; = G-8	
+# Map Ø to }
+; = G-0	
 
 # Map Æ to ]
 ' = G-9
