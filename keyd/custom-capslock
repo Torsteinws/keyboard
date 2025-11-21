@@ -16,18 +16,21 @@ capslock = capslock
 [custom-capslock]
 # Shortcuts for navigating virtual desktops
 # Row 1, Col 1-4
+y = C-A-M-y
 u = C-A-M-u
 i = C-A-M-i
 o = C-A-M-o
 p = C-A-M-p
 
 # Row 2, Col 1-4
+h = C-A-M-h
 j = C-A-M-j
 k = C-A-M-k
 l = C-A-M-l
 ; = C-A-M-;
 
 # Row 3, Col 1-4
+n = C-A-M-n
 m = C-A-M-m
 , = C-A-M-,
 . = C-A-M-.
