@@ -1,0 +1,16 @@
+[main]
+c+v = layer(lower-home-row)
+
+[lower-home-row]
+h = previoussong
+j = playpause
+k = stopcd
+l = nextsong
+
+y = mute
+u = volumedown
+i = volumeup
+o = micmute
+
+m = brightnessdown
+, = brightnessup
